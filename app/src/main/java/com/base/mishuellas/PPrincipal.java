@@ -21,7 +21,7 @@ public class PPrincipal extends AppCompatActivity {
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), LoginActivity.class);
+                Intent intent = new Intent(view.getContext(), ISesion.class);
                 startActivityForResult(intent,0);
             }
         });
@@ -30,7 +30,7 @@ public class PPrincipal extends AppCompatActivity {
         iniciar2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), LoginActivity.class);
+                Intent intent = new Intent(view.getContext(), ISesion.class);
                 startActivityForResult(intent,0);
             }
         });

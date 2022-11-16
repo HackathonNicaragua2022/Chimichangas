@@ -8,55 +8,74 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="126dp"
+        android:layout_height="117dp"
         android:src="@drawable/ic_baseline_photo_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.084" />
+        app:layout_constraintVertical_bias="0.026" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
+        android:textSize="15dp"
         android:text="Subir foto"
+        android:fontFamily="sans-serif-black"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
         app:layout_constraintVertical_bias="0.0" />
 
+
     <TextView
         android:layout_width="344dp"
         android:layout_height="29dp"
-        android:text="ültimo lugar visto:"
+        android:fontFamily="sans-serif-black"
+        android:text="Teléfono al cual se puede llamar:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <TextView
+        android:layout_width="344dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Último lugar visto:"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="344dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Nombre de la persona:"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.628" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="344dp"
-        android:layout_height="29dp"
-        android:text="Nombre de la persona:"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.124" />
+        app:layout_constraintVertical_bias="0.087" />
 
     <EditText
         android:layout_width="341dp"
         android:layout_height="58dp"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="232dp"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         android:textSize="20sp"
@@ -68,6 +87,7 @@
     <TextView
         android:layout_width="143dp"
         android:layout_height="45dp"
+        android:fontFamily="sans-serif-black"
         android:text="Sexo:"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -75,53 +95,76 @@
         app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.39" />
+        app:layout_constraintVertical_bias="0.318" />
 
     <EditText
         android:layout_width="142dp"
         android:layout_height="49dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="368dp"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.141"
+        app:layout_constraintHorizontal_bias="0.13"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="141dp"
         android:layout_height="44dp"
+        android:fontFamily="sans-serif-black"
         android:text="Edad:"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintHorizontal_bias="0.862"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.317" />
 
     <EditText
         android:layout_width="142dp"
         android:layout_height="49dp"
-        android:layout_marginTop="448dp"
+        android:layout_marginTop="368dp"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintHorizontal_bias="0.866"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:layout_width="328dp"
-        android:layout_height="61dp"
+        android:layout_width="335dp"
+        android:layout_height="52dp"
         android:layout_marginTop="568dp"
+        android:inputType="phone"
+        android:selectAllOnFocus="true"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="142dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="368dp"
         android:inputType="textPersonName"
         android:selectAllOnFocus="true"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.417"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:layout_width="335dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="464dp"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -130,16 +173,16 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="@drawable/rounded_button"
-        android:backgroundTint="#ff6600"
+        android:backgroundTint="#405CA3"
         android:text="crear ficha"
         android:textColor="#ffffff"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954" />
+        app:layout_constraintVertical_bias="0.935" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
