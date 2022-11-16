@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "512122239055",
+    "project_id": "mishuellas-2a2b8",
+    "storage_bucket": "mishuellas-2a2b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512122239055:android:c4f0b12ddff3d72597d23a",
+        "android_client_info": {
+          "package_name": "com.base.mishuellas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512122239055-s1poa82ms27a18scl7303qda8juqutvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhC8n_bG4XXsuCxrYZ5reGGeIDHeD918U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512122239055-s1poa82ms27a18scl7303qda8juqutvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
