@@ -1,14 +1,11 @@
 package com.base.mishuellas;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.base.mishuellas.ui.login.LoginActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class PPrincipal extends AppCompatActivity {
 
@@ -21,8 +18,8 @@ public class PPrincipal extends AppCompatActivity {
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), ISesion.class);
-                startActivityForResult(intent,0);
+                Intent intent = new Intent(PPrincipal.this, ISesion.class);
+                startActivity(intent);
             }
         });
 
@@ -30,8 +27,8 @@ public class PPrincipal extends AppCompatActivity {
         iniciar2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), ISesion.class);
-                startActivityForResult(intent,0);
+                Intent intent = new Intent(PPrincipal.this, ISesion.class);
+                startActivity(intent);
             }
         });
 

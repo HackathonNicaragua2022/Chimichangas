@@ -16,33 +16,21 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+
 public class ISesion extends AppCompatActivity {
 
-   Button btnloggin;
-   /* EditText email, password;
-    FirebaseAuth mAuth;*/
+    EditText email, password;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isesion);
 
-      /*  mAuth = FirebaseAuth.getInstance();*/
+        Button btnloggin = findViewById(R.id.loggin);
 
-     /* email = findViewById(R.id.correo);
-     // password = findViewById(R.id.contrasena);*/
 
-      btnloggin = findViewById(R.id.loggin);
-        Button inicio = findViewById(R.id.button);
-        inicio.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(view.getContext(), MenuOpciones.class);
-                startActivityForResult(intent,0);
-            }
-        });
-
-    /*  btnloggin.setOnClickListener(new View.OnClickListener() {
+          btnloggin.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
               String emailUser = email.getText().toString().trim();
@@ -77,7 +65,7 @@ public class ISesion extends AppCompatActivity {
             public void onFailure(@NonNull Exception e) {
                 Toast.makeText(ISesion.this, "Error al inciar sesión", Toast.LENGTH_SHORT).show();
             }
-        });*/
+        });
     }
 
 }

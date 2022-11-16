@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.base.mishuellas.ui.login.LoginActivity;
-
 public class MenuOpciones extends AppCompatActivity {
 
     @Override
