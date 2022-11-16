@@ -61,7 +61,7 @@
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:background="#00BCD4"
-        android:text="Crear Ficha"
+        android:text="Crear Fi"
         android:textColor="#ffffff"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
